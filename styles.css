@@ -1,9 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.header {
+.header-container {
     background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links {
+    display: flex;
+    gap: 1em;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-content {
+    width: 75%;
+}
+
+.hero {
+    display: flex;
+    padding: 4em 0;
+    align-items: center;
+    gap: 2em;
+}
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-right {
+    flex: 1;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
 }
