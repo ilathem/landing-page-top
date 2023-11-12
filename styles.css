@@ -164,5 +164,39 @@ h1 {
 
 .call {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9faf8;
 }
 
+.call-container {
+    background: linear-gradient(to top left, #3882f6, 80%,  #e5e7eb);
+    width: 60%;
+    padding: 3em 4em;
+    border-radius: 10px;
+}
+
+.call-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-text {
+    opacity: 75%;
+}
+
+.call-button {
+    border: 2px solid #f9faf8;
+    background: none;
+    color: #f9faf8;
+    padding: .5em 2em;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
