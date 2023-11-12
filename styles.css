@@ -16,7 +16,7 @@ body {
 
 .header-container {
     background-color: #1f2937;
-    color: white;
+    color: #f9faf8;
     display: flex;
     justify-content: center;
     padding-top: 1em;
@@ -199,4 +199,14 @@ h1 {
     font-size: 18px;
     font-weight: bold;
     border-radius: 10px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
